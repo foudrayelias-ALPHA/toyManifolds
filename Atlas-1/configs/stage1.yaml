@@ -1,0 +1,18 @@
+# Stage 1 modular addition (§7 Phase 2)
+inherits: defaults.yaml
+
+site: resid_post
+secondary_sites:
+  - embeddings
+  - resid_mid
+
+hypotheses:
+  - H2
+  - H3
+  - H4
+  - H5
+  - H6
+
+gates:
+  h2_min_frequencies: 1
+  m7_min: 0.8

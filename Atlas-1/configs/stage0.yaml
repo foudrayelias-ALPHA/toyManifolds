@@ -1,0 +1,21 @@
+# Stage 0 recovery ladder (§7 Phase 1)
+inherits: defaults.yaml
+
+seeds: 5
+snr_db: [5, 10, 15]
+runs:
+  - atlas
+  - b1_vanilla_sae
+  - b2_sae_stitch
+  - c1_shuffled
+  - c2_random_init
+
+ablations:
+  - A1
+  - A2
+  - A3
+
+gates:
+  m1_tolerance: 1
+  m2_min: 0.9
+  m3_min: 0.9

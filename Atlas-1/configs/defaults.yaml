@@ -1,0 +1,24 @@
+# Default hyperparameters (ATLAS-1 §10)
+ambient_dim: 128
+group_size: 16
+lambda_in: 1.0e-4
+theta_act: 0.1
+optimizer: adam
+learning_rate: 1.0e-3
+featurizer_steps: 50000
+seeds: 5
+prime: 113
+fps_cap: 1000
+pca_dims_pre_rips: 10
+
+stage0:
+  num_groups: 64
+  total_latents: 1024
+  snr_db: [5, 10, 15]
+
+stage1:
+  num_groups: 32
+  total_latents: 512
+  site: resid_post
+
+lambda_g_sweep: [1.0e-3, 3.0e-3, 1.0e-2, 3.0e-2, 1.0e-1]
