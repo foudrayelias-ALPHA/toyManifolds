@@ -14,7 +14,7 @@ Full specification: [`ATLAS-1_project_description.md`](ATLAS-1_project_descripti
 
 | Phase | Goal | Status |
 |-------|------|--------|
-| 0 | Telemetry sanity (persistence + coordinates) | Not started |
+| 0 | Telemetry sanity (persistence + coordinates) | **Done** — `scripts/run_phase0.py` |
 | 1 | Stage 0 planted recovery | Scaffold |
 | 2 | Stage 1 mod-add + steering | Scaffold |
 | 3 | Knob demo | Placeholder |
@@ -49,6 +49,7 @@ python -m venv .venv
 source .venv/bin/activate
 pip install -e ".[dev,topology]"
 pytest
+python scripts/run_phase0.py
 python scripts/run_stage0.py --dry-run
 ```
 

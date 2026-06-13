@@ -7,7 +7,7 @@ name = "atlas1"
 version = "0.1.0"
 description = "ATLAS-1: manifold featurizer — a dictionary of charts, not directions"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.10,<3.14"
 license = { text = "MIT" }
 authors = [{ name = "Elias Foudray" }]
 dependencies = [
@@ -17,6 +17,7 @@ dependencies = [
   "torch>=2.0",
   "matplotlib>=3.7",
   "PyYAML>=6.0",
+  "pandas>=2.0",
 ]
 
 [project.optional-dependencies]
