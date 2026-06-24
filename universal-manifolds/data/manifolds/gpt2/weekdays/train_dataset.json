@@ -1,0 +1,884 @@
+[
+  {
+    "input": {
+      "entity": "Monday",
+      "number": "one",
+      "result": "Tuesday",
+      "raw_output": " Tuesday",
+      "raw_input": "Q: What day is one days after Monday?\nA:"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "Saturday",
+        "number": "one",
+        "result": "Sunday",
+        "raw_output": " Sunday",
+        "raw_input": "Q: What day is one days after Saturday?\nA:"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "Monday",
+      "number": "two",
+      "result": "Wednesday",
+      "raw_output": " Wednesday",
+      "raw_input": "Q: What day is two days after Monday?\nA:"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "Monday",
+        "number": "six",
+        "result": "Sunday",
+        "raw_output": " Sunday",
+        "raw_input": "Q: What day is six days after Monday?\nA:"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "Monday",
+      "number": "three",
+      "result": "Thursday",
+      "raw_output": " Thursday",
+      "raw_input": "Q: What day is three days after Monday?\nA:"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "Wednesday",
+        "number": "two",
+        "result": "Friday",
+        "raw_output": " Friday",
+        "raw_input": "Q: What day is two days after Wednesday?\nA:"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "Monday",
+      "number": "four",
+      "result": "Friday",
+      "raw_output": " Friday",
+      "raw_input": "Q: What day is four days after Monday?\nA:"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "Tuesday",
+        "number": "two",
+        "result": "Thursday",
+        "raw_output": " Thursday",
+        "raw_input": "Q: What day is two days after Tuesday?\nA:"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "Monday",
+      "number": "five",
+      "result": "Saturday",
+      "raw_output": " Saturday",
+      "raw_input": "Q: What day is five days after Monday?\nA:"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "Saturday",
+        "number": "one",
+        "result": "Sunday",
+        "raw_output": " Sunday",
+        "raw_input": "Q: What day is one days after Saturday?\nA:"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "Monday",
+      "number": "six",
+      "result": "Sunday",
+      "raw_output": " Sunday",
+      "raw_input": "Q: What day is six days after Monday?\nA:"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "Saturday",
+        "number": "six",
+        "result": "Friday",
+        "raw_output": " Friday",
+        "raw_input": "Q: What day is six days after Saturday?\nA:"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "Monday",
+      "number": "seven",
+      "result": "Monday",
+      "raw_output": " Monday",
+      "raw_input": "Q: What day is seven days after Monday?\nA:"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "Friday",
+        "number": "one",
+        "result": "Saturday",
+        "raw_output": " Saturday",
+        "raw_input": "Q: What day is one days after Friday?\nA:"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "Tuesday",
+      "number": "one",
+      "result": "Wednesday",
+      "raw_output": " Wednesday",
+      "raw_input": "Q: What day is one days after Tuesday?\nA:"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "Friday",
+        "number": "four",
+        "result": "Tuesday",
+        "raw_output": " Tuesday",
+        "raw_input": "Q: What day is four days after Friday?\nA:"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "Tuesday",
+      "number": "two",
+      "result": "Thursday",
+      "raw_output": " Thursday",
+      "raw_input": "Q: What day is two days after Tuesday?\nA:"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "Monday",
+        "number": "one",
+        "result": "Tuesday",
+        "raw_output": " Tuesday",
+        "raw_input": "Q: What day is one days after Monday?\nA:"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "Tuesday",
+      "number": "three",
+      "result": "Friday",
+      "raw_output": " Friday",
+      "raw_input": "Q: What day is three days after Tuesday?\nA:"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "Monday",
+        "number": "two",
+        "result": "Wednesday",
+        "raw_output": " Wednesday",
+        "raw_input": "Q: What day is two days after Monday?\nA:"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "Tuesday",
+      "number": "four",
+      "result": "Saturday",
+      "raw_output": " Saturday",
+      "raw_input": "Q: What day is four days after Tuesday?\nA:"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "Tuesday",
+        "number": "five",
+        "result": "Sunday",
+        "raw_output": " Sunday",
+        "raw_input": "Q: What day is five days after Tuesday?\nA:"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "Tuesday",
+      "number": "five",
+      "result": "Sunday",
+      "raw_output": " Sunday",
+      "raw_input": "Q: What day is five days after Tuesday?\nA:"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "Friday",
+        "number": "one",
+        "result": "Saturday",
+        "raw_output": " Saturday",
+        "raw_input": "Q: What day is one days after Friday?\nA:"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "Tuesday",
+      "number": "six",
+      "result": "Monday",
+      "raw_output": " Monday",
+      "raw_input": "Q: What day is six days after Tuesday?\nA:"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "Friday",
+        "number": "two",
+        "result": "Sunday",
+        "raw_output": " Sunday",
+        "raw_input": "Q: What day is two days after Friday?\nA:"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "Tuesday",
+      "number": "seven",
+      "result": "Tuesday",
+      "raw_output": " Tuesday",
+      "raw_input": "Q: What day is seven days after Tuesday?\nA:"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "Saturday",
+        "number": "six",
+        "result": "Friday",
+        "raw_output": " Friday",
+        "raw_input": "Q: What day is six days after Saturday?\nA:"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "Wednesday",
+      "number": "one",
+      "result": "Thursday",
+      "raw_output": " Thursday",
+      "raw_input": "Q: What day is one days after Wednesday?\nA:"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "Saturday",
+        "number": "five",
+        "result": "Thursday",
+        "raw_output": " Thursday",
+        "raw_input": "Q: What day is five days after Saturday?\nA:"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "Wednesday",
+      "number": "two",
+      "result": "Friday",
+      "raw_output": " Friday",
+      "raw_input": "Q: What day is two days after Wednesday?\nA:"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "Thursday",
+        "number": "two",
+        "result": "Saturday",
+        "raw_output": " Saturday",
+        "raw_input": "Q: What day is two days after Thursday?\nA:"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "Wednesday",
+      "number": "three",
+      "result": "Saturday",
+      "raw_output": " Saturday",
+      "raw_input": "Q: What day is three days after Wednesday?\nA:"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "Thursday",
+        "number": "five",
+        "result": "Tuesday",
+        "raw_output": " Tuesday",
+        "raw_input": "Q: What day is five days after Thursday?\nA:"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "Wednesday",
+      "number": "four",
+      "result": "Sunday",
+      "raw_output": " Sunday",
+      "raw_input": "Q: What day is four days after Wednesday?\nA:"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "Wednesday",
+        "number": "seven",
+        "result": "Wednesday",
+        "raw_output": " Wednesday",
+        "raw_input": "Q: What day is seven days after Wednesday?\nA:"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "Wednesday",
+      "number": "five",
+      "result": "Monday",
+      "raw_output": " Monday",
+      "raw_input": "Q: What day is five days after Wednesday?\nA:"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "Sunday",
+        "number": "one",
+        "result": "Monday",
+        "raw_output": " Monday",
+        "raw_input": "Q: What day is one days after Sunday?\nA:"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "Wednesday",
+      "number": "six",
+      "result": "Tuesday",
+      "raw_output": " Tuesday",
+      "raw_input": "Q: What day is six days after Wednesday?\nA:"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "Sunday",
+        "number": "seven",
+        "result": "Sunday",
+        "raw_output": " Sunday",
+        "raw_input": "Q: What day is seven days after Sunday?\nA:"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "Wednesday",
+      "number": "seven",
+      "result": "Wednesday",
+      "raw_output": " Wednesday",
+      "raw_input": "Q: What day is seven days after Wednesday?\nA:"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "Tuesday",
+        "number": "six",
+        "result": "Monday",
+        "raw_output": " Monday",
+        "raw_input": "Q: What day is six days after Tuesday?\nA:"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "Thursday",
+      "number": "one",
+      "result": "Friday",
+      "raw_output": " Friday",
+      "raw_input": "Q: What day is one days after Thursday?\nA:"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "Thursday",
+        "number": "three",
+        "result": "Sunday",
+        "raw_output": " Sunday",
+        "raw_input": "Q: What day is three days after Thursday?\nA:"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "Thursday",
+      "number": "two",
+      "result": "Saturday",
+      "raw_output": " Saturday",
+      "raw_input": "Q: What day is two days after Thursday?\nA:"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "Wednesday",
+        "number": "two",
+        "result": "Friday",
+        "raw_output": " Friday",
+        "raw_input": "Q: What day is two days after Wednesday?\nA:"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "Thursday",
+      "number": "three",
+      "result": "Sunday",
+      "raw_output": " Sunday",
+      "raw_input": "Q: What day is three days after Thursday?\nA:"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "Tuesday",
+        "number": "seven",
+        "result": "Tuesday",
+        "raw_output": " Tuesday",
+        "raw_input": "Q: What day is seven days after Tuesday?\nA:"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "Thursday",
+      "number": "four",
+      "result": "Monday",
+      "raw_output": " Monday",
+      "raw_input": "Q: What day is four days after Thursday?\nA:"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "Wednesday",
+        "number": "one",
+        "result": "Thursday",
+        "raw_output": " Thursday",
+        "raw_input": "Q: What day is one days after Wednesday?\nA:"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "Thursday",
+      "number": "five",
+      "result": "Tuesday",
+      "raw_output": " Tuesday",
+      "raw_input": "Q: What day is five days after Thursday?\nA:"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "Monday",
+        "number": "four",
+        "result": "Friday",
+        "raw_output": " Friday",
+        "raw_input": "Q: What day is four days after Monday?\nA:"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "Thursday",
+      "number": "six",
+      "result": "Wednesday",
+      "raw_output": " Wednesday",
+      "raw_input": "Q: What day is six days after Thursday?\nA:"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "Monday",
+        "number": "three",
+        "result": "Thursday",
+        "raw_output": " Thursday",
+        "raw_input": "Q: What day is three days after Monday?\nA:"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "Thursday",
+      "number": "seven",
+      "result": "Thursday",
+      "raw_output": " Thursday",
+      "raw_input": "Q: What day is seven days after Thursday?\nA:"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "Sunday",
+        "number": "three",
+        "result": "Wednesday",
+        "raw_output": " Wednesday",
+        "raw_input": "Q: What day is three days after Sunday?\nA:"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "Friday",
+      "number": "one",
+      "result": "Saturday",
+      "raw_output": " Saturday",
+      "raw_input": "Q: What day is one days after Friday?\nA:"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "Friday",
+        "number": "three",
+        "result": "Monday",
+        "raw_output": " Monday",
+        "raw_input": "Q: What day is three days after Friday?\nA:"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "Friday",
+      "number": "two",
+      "result": "Sunday",
+      "raw_output": " Sunday",
+      "raw_input": "Q: What day is two days after Friday?\nA:"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "Sunday",
+        "number": "one",
+        "result": "Monday",
+        "raw_output": " Monday",
+        "raw_input": "Q: What day is one days after Sunday?\nA:"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "Friday",
+      "number": "three",
+      "result": "Monday",
+      "raw_output": " Monday",
+      "raw_input": "Q: What day is three days after Friday?\nA:"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "Saturday",
+        "number": "four",
+        "result": "Wednesday",
+        "raw_output": " Wednesday",
+        "raw_input": "Q: What day is four days after Saturday?\nA:"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "Friday",
+      "number": "four",
+      "result": "Tuesday",
+      "raw_output": " Tuesday",
+      "raw_input": "Q: What day is four days after Friday?\nA:"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "Friday",
+        "number": "one",
+        "result": "Saturday",
+        "raw_output": " Saturday",
+        "raw_input": "Q: What day is one days after Friday?\nA:"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "Friday",
+      "number": "five",
+      "result": "Wednesday",
+      "raw_output": " Wednesday",
+      "raw_input": "Q: What day is five days after Friday?\nA:"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "Thursday",
+        "number": "one",
+        "result": "Friday",
+        "raw_output": " Friday",
+        "raw_input": "Q: What day is one days after Thursday?\nA:"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "Friday",
+      "number": "six",
+      "result": "Thursday",
+      "raw_output": " Thursday",
+      "raw_input": "Q: What day is six days after Friday?\nA:"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "Friday",
+        "number": "three",
+        "result": "Monday",
+        "raw_output": " Monday",
+        "raw_input": "Q: What day is three days after Friday?\nA:"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "Friday",
+      "number": "seven",
+      "result": "Friday",
+      "raw_output": " Friday",
+      "raw_input": "Q: What day is seven days after Friday?\nA:"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "Sunday",
+        "number": "six",
+        "result": "Saturday",
+        "raw_output": " Saturday",
+        "raw_input": "Q: What day is six days after Sunday?\nA:"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "Saturday",
+      "number": "one",
+      "result": "Sunday",
+      "raw_output": " Sunday",
+      "raw_input": "Q: What day is one days after Saturday?\nA:"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "Friday",
+        "number": "seven",
+        "result": "Friday",
+        "raw_output": " Friday",
+        "raw_input": "Q: What day is seven days after Friday?\nA:"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "Saturday",
+      "number": "two",
+      "result": "Monday",
+      "raw_output": " Monday",
+      "raw_input": "Q: What day is two days after Saturday?\nA:"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "Wednesday",
+        "number": "five",
+        "result": "Monday",
+        "raw_output": " Monday",
+        "raw_input": "Q: What day is five days after Wednesday?\nA:"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "Saturday",
+      "number": "three",
+      "result": "Tuesday",
+      "raw_output": " Tuesday",
+      "raw_input": "Q: What day is three days after Saturday?\nA:"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "Tuesday",
+        "number": "six",
+        "result": "Monday",
+        "raw_output": " Monday",
+        "raw_input": "Q: What day is six days after Tuesday?\nA:"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "Saturday",
+      "number": "four",
+      "result": "Wednesday",
+      "raw_output": " Wednesday",
+      "raw_input": "Q: What day is four days after Saturday?\nA:"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "Monday",
+        "number": "one",
+        "result": "Tuesday",
+        "raw_output": " Tuesday",
+        "raw_input": "Q: What day is one days after Monday?\nA:"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "Saturday",
+      "number": "five",
+      "result": "Thursday",
+      "raw_output": " Thursday",
+      "raw_input": "Q: What day is five days after Saturday?\nA:"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "Saturday",
+        "number": "two",
+        "result": "Monday",
+        "raw_output": " Monday",
+        "raw_input": "Q: What day is two days after Saturday?\nA:"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "Saturday",
+      "number": "six",
+      "result": "Friday",
+      "raw_output": " Friday",
+      "raw_input": "Q: What day is six days after Saturday?\nA:"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "Sunday",
+        "number": "three",
+        "result": "Wednesday",
+        "raw_output": " Wednesday",
+        "raw_input": "Q: What day is three days after Sunday?\nA:"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "Saturday",
+      "number": "seven",
+      "result": "Saturday",
+      "raw_output": " Saturday",
+      "raw_input": "Q: What day is seven days after Saturday?\nA:"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "Monday",
+        "number": "seven",
+        "result": "Monday",
+        "raw_output": " Monday",
+        "raw_input": "Q: What day is seven days after Monday?\nA:"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "Sunday",
+      "number": "one",
+      "result": "Monday",
+      "raw_output": " Monday",
+      "raw_input": "Q: What day is one days after Sunday?\nA:"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "Tuesday",
+        "number": "seven",
+        "result": "Tuesday",
+        "raw_output": " Tuesday",
+        "raw_input": "Q: What day is seven days after Tuesday?\nA:"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "Sunday",
+      "number": "two",
+      "result": "Tuesday",
+      "raw_output": " Tuesday",
+      "raw_input": "Q: What day is two days after Sunday?\nA:"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "Monday",
+        "number": "four",
+        "result": "Friday",
+        "raw_output": " Friday",
+        "raw_input": "Q: What day is four days after Monday?\nA:"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "Sunday",
+      "number": "three",
+      "result": "Wednesday",
+      "raw_output": " Wednesday",
+      "raw_input": "Q: What day is three days after Sunday?\nA:"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "Wednesday",
+        "number": "four",
+        "result": "Sunday",
+        "raw_output": " Sunday",
+        "raw_input": "Q: What day is four days after Wednesday?\nA:"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "Sunday",
+      "number": "four",
+      "result": "Thursday",
+      "raw_output": " Thursday",
+      "raw_input": "Q: What day is four days after Sunday?\nA:"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "Saturday",
+        "number": "seven",
+        "result": "Saturday",
+        "raw_output": " Saturday",
+        "raw_input": "Q: What day is seven days after Saturday?\nA:"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "Sunday",
+      "number": "five",
+      "result": "Friday",
+      "raw_output": " Friday",
+      "raw_input": "Q: What day is five days after Sunday?\nA:"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "Wednesday",
+        "number": "two",
+        "result": "Friday",
+        "raw_output": " Friday",
+        "raw_input": "Q: What day is two days after Wednesday?\nA:"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "Sunday",
+      "number": "six",
+      "result": "Saturday",
+      "raw_output": " Saturday",
+      "raw_input": "Q: What day is six days after Sunday?\nA:"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "Wednesday",
+        "number": "three",
+        "result": "Saturday",
+        "raw_output": " Saturday",
+        "raw_input": "Q: What day is three days after Wednesday?\nA:"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "Sunday",
+      "number": "seven",
+      "result": "Sunday",
+      "raw_output": " Sunday",
+      "raw_input": "Q: What day is seven days after Sunday?\nA:"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "Tuesday",
+        "number": "six",
+        "result": "Monday",
+        "raw_output": " Monday",
+        "raw_input": "Q: What day is six days after Tuesday?\nA:"
+      }
+    ]
+  }
+]

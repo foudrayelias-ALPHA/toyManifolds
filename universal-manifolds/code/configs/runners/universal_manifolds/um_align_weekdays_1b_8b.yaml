@@ -1,0 +1,30 @@
+# @package _global_
+# PRIMARY aligner: weekdays manifold, Llama-3.2-1B (source) vs Llama-3.1-8B (target).
+# Default at matched relative depth 0.5 (1B L8 <-> 8B L16); sweep other depths via CLI
+# (universal_manifold.source.layer / .target.layer / .pair_label).
+defaults:
+  - /base
+  - /task: natural_domains_arithmetic_weekdays
+  - /model: llama31_8b
+  - /analysis/universal_manifold
+  - _self_
+
+task:
+  variant: null                       # suppress experiment_root variant-append for aligner output
+
+universal_manifold:
+  pair_label: weekdays_1b_8b_d0.5
+  target_variable: entity
+  symmetry_group: cyclic
+  source:
+    experiment_root: agent_logs/2026-06-21--universal-manifolds--lucid-glacier/artifacts/natural_domains_arithmetic/llama32_1b_instruct
+    variant: weekdays
+    subspace: pca_k8
+    layer: 8
+    pos: entity
+  target:
+    experiment_root: agent_logs/2026-06-21--universal-manifolds--lucid-glacier/artifacts/natural_domains_arithmetic/llama31_8b
+    variant: weekdays
+    subspace: pca_k8
+    layer: 16
+    pos: entity

@@ -1,0 +1,26 @@
+# @package _global_
+# Discriminant control producer (DEPTH SWEEP): alphabet manifold in Llama-3.2-1B-Instruct.
+# alphabet is non-cyclic -> a line (b1=0), contrasting weekdays' loop.
+defaults:
+  - /base
+  - /task: natural_domains_arithmetic_alphabet
+  - /model: llama32_1b_instruct
+  - /analysis/baseline
+  - /analysis/subspace
+  - /analysis/activation_manifold
+  - _self_
+
+task:
+  target_variable: entity          # the input letter
+
+subspace:
+  method: pca
+  k_features: 8
+  layers: [0, 4, 8, 12]
+  token_positions: [entity]
+
+activation_manifold:
+  method: spline
+  smoothness: 0.0
+  layers: [8]
+  token_positions: [entity]

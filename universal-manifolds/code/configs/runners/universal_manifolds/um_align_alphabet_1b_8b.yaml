@@ -1,0 +1,28 @@
+# @package _global_
+# Same-concept aligner #2 (non-cyclic): alphabet manifold, 1B (source) vs 8B (target).
+defaults:
+  - /base
+  - /task: natural_domains_arithmetic_alphabet
+  - /model: llama31_8b
+  - /analysis/universal_manifold
+  - _self_
+
+task:
+  variant: null
+
+universal_manifold:
+  pair_label: alphabet_1b_8b_d0.5
+  target_variable: entity
+  symmetry_group: none                # alphabet is non-cyclic (a line, no rotational symmetry)
+  source:
+    experiment_root: agent_logs/2026-06-21--universal-manifolds--lucid-glacier/artifacts/natural_domains_arithmetic/llama32_1b_instruct
+    variant: alphabet
+    subspace: pca_k8
+    layer: 8
+    pos: entity
+  target:
+    experiment_root: agent_logs/2026-06-21--universal-manifolds--lucid-glacier/artifacts/natural_domains_arithmetic/llama31_8b
+    variant: alphabet
+    subspace: pca_k8
+    layer: 16
+    pos: entity

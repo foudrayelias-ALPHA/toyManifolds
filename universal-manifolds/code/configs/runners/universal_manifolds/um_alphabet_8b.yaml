@@ -1,0 +1,25 @@
+# @package _global_
+# Discriminant control producer (DEPTH SWEEP): alphabet manifold in Llama-3.1-8B.
+defaults:
+  - /base
+  - /task: natural_domains_arithmetic_alphabet
+  - /model: llama31_8b
+  - /analysis/baseline
+  - /analysis/subspace
+  - /analysis/activation_manifold
+  - _self_
+
+task:
+  target_variable: entity
+
+subspace:
+  method: pca
+  k_features: 8
+  layers: [0, 8, 16, 24]
+  token_positions: [entity]
+
+activation_manifold:
+  method: spline
+  smoothness: 0.0
+  layers: [16]
+  token_positions: [entity]

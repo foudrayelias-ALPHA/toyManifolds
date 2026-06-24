@@ -1,0 +1,1586 @@
+[
+  {
+    "input": {
+      "entity": "A",
+      "number": "four",
+      "result": "E",
+      "raw_output": " E",
+      "raw_input": "Consider letters in the alphabet. Starting at letter A, we increment by four. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "U",
+        "number": "one",
+        "result": "V",
+        "raw_output": " V",
+        "raw_input": "Consider letters in the alphabet. Starting at letter U, we increment by one. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "B",
+      "number": "three",
+      "result": "E",
+      "raw_output": " E",
+      "raw_input": "Consider letters in the alphabet. Starting at letter B, we increment by three. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "H",
+        "number": "two",
+        "result": "J",
+        "raw_output": " J",
+        "raw_input": "Consider letters in the alphabet. Starting at letter H, we increment by two. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "B",
+      "number": "four",
+      "result": "F",
+      "raw_output": " F",
+      "raw_input": "Consider letters in the alphabet. Starting at letter B, we increment by four. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "E",
+        "number": "one",
+        "result": "F",
+        "raw_output": " F",
+        "raw_input": "Consider letters in the alphabet. Starting at letter E, we increment by one. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "C",
+      "number": "two",
+      "result": "E",
+      "raw_output": " E",
+      "raw_input": "Consider letters in the alphabet. Starting at letter C, we increment by two. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "V",
+        "number": "one",
+        "result": "W",
+        "raw_output": " W",
+        "raw_input": "Consider letters in the alphabet. Starting at letter V, we increment by one. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "C",
+      "number": "three",
+      "result": "F",
+      "raw_output": " F",
+      "raw_input": "Consider letters in the alphabet. Starting at letter C, we increment by three. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "S",
+        "number": "four",
+        "result": "W",
+        "raw_output": " W",
+        "raw_input": "Consider letters in the alphabet. Starting at letter S, we increment by four. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "C",
+      "number": "four",
+      "result": "G",
+      "raw_output": " G",
+      "raw_input": "Consider letters in the alphabet. Starting at letter C, we increment by four. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "C",
+        "number": "two",
+        "result": "E",
+        "raw_output": " E",
+        "raw_input": "Consider letters in the alphabet. Starting at letter C, we increment by two. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "D",
+      "number": "one",
+      "result": "E",
+      "raw_output": " E",
+      "raw_input": "Consider letters in the alphabet. Starting at letter D, we increment by one. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "H",
+        "number": "one",
+        "result": "I",
+        "raw_output": " I",
+        "raw_input": "Consider letters in the alphabet. Starting at letter H, we increment by one. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "D",
+      "number": "two",
+      "result": "F",
+      "raw_output": " F",
+      "raw_input": "Consider letters in the alphabet. Starting at letter D, we increment by two. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "R",
+        "number": "two",
+        "result": "T",
+        "raw_output": " T",
+        "raw_input": "Consider letters in the alphabet. Starting at letter R, we increment by two. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "D",
+      "number": "three",
+      "result": "G",
+      "raw_output": " G",
+      "raw_input": "Consider letters in the alphabet. Starting at letter D, we increment by three. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "H",
+        "number": "four",
+        "result": "L",
+        "raw_output": " L",
+        "raw_input": "Consider letters in the alphabet. Starting at letter H, we increment by four. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "D",
+      "number": "four",
+      "result": "H",
+      "raw_output": " H",
+      "raw_input": "Consider letters in the alphabet. Starting at letter D, we increment by four. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "S",
+        "number": "three",
+        "result": "V",
+        "raw_output": " V",
+        "raw_input": "Consider letters in the alphabet. Starting at letter S, we increment by three. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "E",
+      "number": "one",
+      "result": "F",
+      "raw_output": " F",
+      "raw_input": "Consider letters in the alphabet. Starting at letter E, we increment by one. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "K",
+        "number": "three",
+        "result": "N",
+        "raw_output": " N",
+        "raw_input": "Consider letters in the alphabet. Starting at letter K, we increment by three. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "E",
+      "number": "two",
+      "result": "G",
+      "raw_output": " G",
+      "raw_input": "Consider letters in the alphabet. Starting at letter E, we increment by two. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "E",
+        "number": "two",
+        "result": "G",
+        "raw_output": " G",
+        "raw_input": "Consider letters in the alphabet. Starting at letter E, we increment by two. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "E",
+      "number": "three",
+      "result": "H",
+      "raw_output": " H",
+      "raw_input": "Consider letters in the alphabet. Starting at letter E, we increment by three. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "D",
+        "number": "one",
+        "result": "E",
+        "raw_output": " E",
+        "raw_input": "Consider letters in the alphabet. Starting at letter D, we increment by one. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "E",
+      "number": "four",
+      "result": "I",
+      "raw_output": " I",
+      "raw_input": "Consider letters in the alphabet. Starting at letter E, we increment by four. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "M",
+        "number": "one",
+        "result": "N",
+        "raw_output": " N",
+        "raw_input": "Consider letters in the alphabet. Starting at letter M, we increment by one. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "F",
+      "number": "one",
+      "result": "G",
+      "raw_output": " G",
+      "raw_input": "Consider letters in the alphabet. Starting at letter F, we increment by one. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "L",
+        "number": "three",
+        "result": "O",
+        "raw_output": " O",
+        "raw_input": "Consider letters in the alphabet. Starting at letter L, we increment by three. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "F",
+      "number": "two",
+      "result": "H",
+      "raw_output": " H",
+      "raw_input": "Consider letters in the alphabet. Starting at letter F, we increment by two. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "T",
+        "number": "three",
+        "result": "W",
+        "raw_output": " W",
+        "raw_input": "Consider letters in the alphabet. Starting at letter T, we increment by three. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "F",
+      "number": "three",
+      "result": "I",
+      "raw_output": " I",
+      "raw_input": "Consider letters in the alphabet. Starting at letter F, we increment by three. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "B",
+        "number": "four",
+        "result": "F",
+        "raw_output": " F",
+        "raw_input": "Consider letters in the alphabet. Starting at letter B, we increment by four. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "F",
+      "number": "four",
+      "result": "J",
+      "raw_output": " J",
+      "raw_input": "Consider letters in the alphabet. Starting at letter F, we increment by four. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "R",
+        "number": "one",
+        "result": "S",
+        "raw_output": " S",
+        "raw_input": "Consider letters in the alphabet. Starting at letter R, we increment by one. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "G",
+      "number": "one",
+      "result": "H",
+      "raw_output": " H",
+      "raw_input": "Consider letters in the alphabet. Starting at letter G, we increment by one. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "M",
+        "number": "one",
+        "result": "N",
+        "raw_output": " N",
+        "raw_input": "Consider letters in the alphabet. Starting at letter M, we increment by one. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "G",
+      "number": "two",
+      "result": "I",
+      "raw_output": " I",
+      "raw_input": "Consider letters in the alphabet. Starting at letter G, we increment by two. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "R",
+        "number": "three",
+        "result": "U",
+        "raw_output": " U",
+        "raw_input": "Consider letters in the alphabet. Starting at letter R, we increment by three. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "G",
+      "number": "three",
+      "result": "J",
+      "raw_output": " J",
+      "raw_input": "Consider letters in the alphabet. Starting at letter G, we increment by three. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "U",
+        "number": "three",
+        "result": "X",
+        "raw_output": " X",
+        "raw_input": "Consider letters in the alphabet. Starting at letter U, we increment by three. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "G",
+      "number": "four",
+      "result": "K",
+      "raw_output": " K",
+      "raw_input": "Consider letters in the alphabet. Starting at letter G, we increment by four. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "S",
+        "number": "two",
+        "result": "U",
+        "raw_output": " U",
+        "raw_input": "Consider letters in the alphabet. Starting at letter S, we increment by two. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "H",
+      "number": "one",
+      "result": "I",
+      "raw_output": " I",
+      "raw_input": "Consider letters in the alphabet. Starting at letter H, we increment by one. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "W",
+        "number": "one",
+        "result": "X",
+        "raw_output": " X",
+        "raw_input": "Consider letters in the alphabet. Starting at letter W, we increment by one. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "H",
+      "number": "two",
+      "result": "J",
+      "raw_output": " J",
+      "raw_input": "Consider letters in the alphabet. Starting at letter H, we increment by two. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "C",
+        "number": "two",
+        "result": "E",
+        "raw_output": " E",
+        "raw_input": "Consider letters in the alphabet. Starting at letter C, we increment by two. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "H",
+      "number": "three",
+      "result": "K",
+      "raw_output": " K",
+      "raw_input": "Consider letters in the alphabet. Starting at letter H, we increment by three. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "D",
+        "number": "four",
+        "result": "H",
+        "raw_output": " H",
+        "raw_input": "Consider letters in the alphabet. Starting at letter D, we increment by four. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "H",
+      "number": "four",
+      "result": "L",
+      "raw_output": " L",
+      "raw_input": "Consider letters in the alphabet. Starting at letter H, we increment by four. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "I",
+        "number": "four",
+        "result": "M",
+        "raw_output": " M",
+        "raw_input": "Consider letters in the alphabet. Starting at letter I, we increment by four. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "I",
+      "number": "one",
+      "result": "J",
+      "raw_output": " J",
+      "raw_input": "Consider letters in the alphabet. Starting at letter I, we increment by one. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "U",
+        "number": "three",
+        "result": "X",
+        "raw_output": " X",
+        "raw_input": "Consider letters in the alphabet. Starting at letter U, we increment by three. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "I",
+      "number": "two",
+      "result": "K",
+      "raw_output": " K",
+      "raw_input": "Consider letters in the alphabet. Starting at letter I, we increment by two. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "F",
+        "number": "three",
+        "result": "I",
+        "raw_output": " I",
+        "raw_input": "Consider letters in the alphabet. Starting at letter F, we increment by three. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "I",
+      "number": "three",
+      "result": "L",
+      "raw_output": " L",
+      "raw_input": "Consider letters in the alphabet. Starting at letter I, we increment by three. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "L",
+        "number": "two",
+        "result": "N",
+        "raw_output": " N",
+        "raw_input": "Consider letters in the alphabet. Starting at letter L, we increment by two. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "I",
+      "number": "four",
+      "result": "M",
+      "raw_output": " M",
+      "raw_input": "Consider letters in the alphabet. Starting at letter I, we increment by four. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "V",
+        "number": "three",
+        "result": "Y",
+        "raw_output": " Y",
+        "raw_input": "Consider letters in the alphabet. Starting at letter V, we increment by three. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "J",
+      "number": "one",
+      "result": "K",
+      "raw_output": " K",
+      "raw_input": "Consider letters in the alphabet. Starting at letter J, we increment by one. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "W",
+        "number": "one",
+        "result": "X",
+        "raw_output": " X",
+        "raw_input": "Consider letters in the alphabet. Starting at letter W, we increment by one. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "J",
+      "number": "two",
+      "result": "L",
+      "raw_output": " L",
+      "raw_input": "Consider letters in the alphabet. Starting at letter J, we increment by two. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "T",
+        "number": "two",
+        "result": "V",
+        "raw_output": " V",
+        "raw_input": "Consider letters in the alphabet. Starting at letter T, we increment by two. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "J",
+      "number": "three",
+      "result": "M",
+      "raw_output": " M",
+      "raw_input": "Consider letters in the alphabet. Starting at letter J, we increment by three. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "R",
+        "number": "two",
+        "result": "T",
+        "raw_output": " T",
+        "raw_input": "Consider letters in the alphabet. Starting at letter R, we increment by two. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "J",
+      "number": "four",
+      "result": "N",
+      "raw_output": " N",
+      "raw_input": "Consider letters in the alphabet. Starting at letter J, we increment by four. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "F",
+        "number": "four",
+        "result": "J",
+        "raw_output": " J",
+        "raw_input": "Consider letters in the alphabet. Starting at letter F, we increment by four. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "K",
+      "number": "one",
+      "result": "L",
+      "raw_output": " L",
+      "raw_input": "Consider letters in the alphabet. Starting at letter K, we increment by one. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "M",
+        "number": "three",
+        "result": "P",
+        "raw_output": " P",
+        "raw_input": "Consider letters in the alphabet. Starting at letter M, we increment by three. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "K",
+      "number": "two",
+      "result": "M",
+      "raw_output": " M",
+      "raw_input": "Consider letters in the alphabet. Starting at letter K, we increment by two. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "U",
+        "number": "two",
+        "result": "W",
+        "raw_output": " W",
+        "raw_input": "Consider letters in the alphabet. Starting at letter U, we increment by two. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "K",
+      "number": "three",
+      "result": "N",
+      "raw_output": " N",
+      "raw_input": "Consider letters in the alphabet. Starting at letter K, we increment by three. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "V",
+        "number": "three",
+        "result": "Y",
+        "raw_output": " Y",
+        "raw_input": "Consider letters in the alphabet. Starting at letter V, we increment by three. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "K",
+      "number": "four",
+      "result": "O",
+      "raw_output": " O",
+      "raw_input": "Consider letters in the alphabet. Starting at letter K, we increment by four. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "Y",
+        "number": "one",
+        "result": "Z",
+        "raw_output": " Z",
+        "raw_input": "Consider letters in the alphabet. Starting at letter Y, we increment by one. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "L",
+      "number": "one",
+      "result": "M",
+      "raw_output": " M",
+      "raw_input": "Consider letters in the alphabet. Starting at letter L, we increment by one. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "H",
+        "number": "one",
+        "result": "I",
+        "raw_output": " I",
+        "raw_input": "Consider letters in the alphabet. Starting at letter H, we increment by one. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "L",
+      "number": "two",
+      "result": "N",
+      "raw_output": " N",
+      "raw_input": "Consider letters in the alphabet. Starting at letter L, we increment by two. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "K",
+        "number": "four",
+        "result": "O",
+        "raw_output": " O",
+        "raw_input": "Consider letters in the alphabet. Starting at letter K, we increment by four. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "L",
+      "number": "three",
+      "result": "O",
+      "raw_output": " O",
+      "raw_input": "Consider letters in the alphabet. Starting at letter L, we increment by three. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "I",
+        "number": "one",
+        "result": "J",
+        "raw_output": " J",
+        "raw_input": "Consider letters in the alphabet. Starting at letter I, we increment by one. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "L",
+      "number": "four",
+      "result": "P",
+      "raw_output": " P",
+      "raw_input": "Consider letters in the alphabet. Starting at letter L, we increment by four. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "G",
+        "number": "three",
+        "result": "J",
+        "raw_output": " J",
+        "raw_input": "Consider letters in the alphabet. Starting at letter G, we increment by three. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "M",
+      "number": "one",
+      "result": "N",
+      "raw_output": " N",
+      "raw_input": "Consider letters in the alphabet. Starting at letter M, we increment by one. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "G",
+        "number": "four",
+        "result": "K",
+        "raw_output": " K",
+        "raw_input": "Consider letters in the alphabet. Starting at letter G, we increment by four. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "M",
+      "number": "two",
+      "result": "O",
+      "raw_output": " O",
+      "raw_input": "Consider letters in the alphabet. Starting at letter M, we increment by two. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "M",
+        "number": "four",
+        "result": "Q",
+        "raw_output": " Q",
+        "raw_input": "Consider letters in the alphabet. Starting at letter M, we increment by four. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "M",
+      "number": "three",
+      "result": "P",
+      "raw_output": " P",
+      "raw_input": "Consider letters in the alphabet. Starting at letter M, we increment by three. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "E",
+        "number": "three",
+        "result": "H",
+        "raw_output": " H",
+        "raw_input": "Consider letters in the alphabet. Starting at letter E, we increment by three. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "M",
+      "number": "four",
+      "result": "Q",
+      "raw_output": " Q",
+      "raw_input": "Consider letters in the alphabet. Starting at letter M, we increment by four. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "E",
+        "number": "two",
+        "result": "G",
+        "raw_output": " G",
+        "raw_input": "Consider letters in the alphabet. Starting at letter E, we increment by two. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "N",
+      "number": "one",
+      "result": "O",
+      "raw_output": " O",
+      "raw_input": "Consider letters in the alphabet. Starting at letter N, we increment by one. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "S",
+        "number": "four",
+        "result": "W",
+        "raw_output": " W",
+        "raw_input": "Consider letters in the alphabet. Starting at letter S, we increment by four. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "N",
+      "number": "two",
+      "result": "P",
+      "raw_output": " P",
+      "raw_input": "Consider letters in the alphabet. Starting at letter N, we increment by two. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "L",
+        "number": "two",
+        "result": "N",
+        "raw_output": " N",
+        "raw_input": "Consider letters in the alphabet. Starting at letter L, we increment by two. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "N",
+      "number": "three",
+      "result": "Q",
+      "raw_output": " Q",
+      "raw_input": "Consider letters in the alphabet. Starting at letter N, we increment by three. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "E",
+        "number": "four",
+        "result": "I",
+        "raw_output": " I",
+        "raw_input": "Consider letters in the alphabet. Starting at letter E, we increment by four. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "N",
+      "number": "four",
+      "result": "R",
+      "raw_output": " R",
+      "raw_input": "Consider letters in the alphabet. Starting at letter N, we increment by four. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "D",
+        "number": "two",
+        "result": "F",
+        "raw_output": " F",
+        "raw_input": "Consider letters in the alphabet. Starting at letter D, we increment by two. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "O",
+      "number": "one",
+      "result": "P",
+      "raw_output": " P",
+      "raw_input": "Consider letters in the alphabet. Starting at letter O, we increment by one. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "U",
+        "number": "two",
+        "result": "W",
+        "raw_output": " W",
+        "raw_input": "Consider letters in the alphabet. Starting at letter U, we increment by two. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "O",
+      "number": "two",
+      "result": "Q",
+      "raw_output": " Q",
+      "raw_input": "Consider letters in the alphabet. Starting at letter O, we increment by two. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "V",
+        "number": "four",
+        "result": "Z",
+        "raw_output": " Z",
+        "raw_input": "Consider letters in the alphabet. Starting at letter V, we increment by four. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "O",
+      "number": "three",
+      "result": "R",
+      "raw_output": " R",
+      "raw_input": "Consider letters in the alphabet. Starting at letter O, we increment by three. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "T",
+        "number": "one",
+        "result": "U",
+        "raw_output": " U",
+        "raw_input": "Consider letters in the alphabet. Starting at letter T, we increment by one. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "O",
+      "number": "four",
+      "result": "S",
+      "raw_output": " S",
+      "raw_input": "Consider letters in the alphabet. Starting at letter O, we increment by four. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "M",
+        "number": "four",
+        "result": "Q",
+        "raw_output": " Q",
+        "raw_input": "Consider letters in the alphabet. Starting at letter M, we increment by four. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "P",
+      "number": "one",
+      "result": "Q",
+      "raw_output": " Q",
+      "raw_input": "Consider letters in the alphabet. Starting at letter P, we increment by one. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "T",
+        "number": "four",
+        "result": "X",
+        "raw_output": " X",
+        "raw_input": "Consider letters in the alphabet. Starting at letter T, we increment by four. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "P",
+      "number": "two",
+      "result": "R",
+      "raw_output": " R",
+      "raw_input": "Consider letters in the alphabet. Starting at letter P, we increment by two. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "Q",
+        "number": "three",
+        "result": "T",
+        "raw_output": " T",
+        "raw_input": "Consider letters in the alphabet. Starting at letter Q, we increment by three. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "P",
+      "number": "three",
+      "result": "S",
+      "raw_output": " S",
+      "raw_input": "Consider letters in the alphabet. Starting at letter P, we increment by three. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "R",
+        "number": "one",
+        "result": "S",
+        "raw_output": " S",
+        "raw_input": "Consider letters in the alphabet. Starting at letter R, we increment by one. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "P",
+      "number": "four",
+      "result": "T",
+      "raw_output": " T",
+      "raw_input": "Consider letters in the alphabet. Starting at letter P, we increment by four. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "V",
+        "number": "one",
+        "result": "W",
+        "raw_output": " W",
+        "raw_input": "Consider letters in the alphabet. Starting at letter V, we increment by one. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "Q",
+      "number": "one",
+      "result": "R",
+      "raw_output": " R",
+      "raw_input": "Consider letters in the alphabet. Starting at letter Q, we increment by one. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "V",
+        "number": "three",
+        "result": "Y",
+        "raw_output": " Y",
+        "raw_input": "Consider letters in the alphabet. Starting at letter V, we increment by three. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "Q",
+      "number": "two",
+      "result": "S",
+      "raw_output": " S",
+      "raw_input": "Consider letters in the alphabet. Starting at letter Q, we increment by two. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "D",
+        "number": "three",
+        "result": "G",
+        "raw_output": " G",
+        "raw_input": "Consider letters in the alphabet. Starting at letter D, we increment by three. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "Q",
+      "number": "three",
+      "result": "T",
+      "raw_output": " T",
+      "raw_input": "Consider letters in the alphabet. Starting at letter Q, we increment by three. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "N",
+        "number": "two",
+        "result": "P",
+        "raw_output": " P",
+        "raw_input": "Consider letters in the alphabet. Starting at letter N, we increment by two. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "Q",
+      "number": "four",
+      "result": "U",
+      "raw_output": " U",
+      "raw_input": "Consider letters in the alphabet. Starting at letter Q, we increment by four. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "O",
+        "number": "one",
+        "result": "P",
+        "raw_output": " P",
+        "raw_input": "Consider letters in the alphabet. Starting at letter O, we increment by one. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "R",
+      "number": "one",
+      "result": "S",
+      "raw_output": " S",
+      "raw_input": "Consider letters in the alphabet. Starting at letter R, we increment by one. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "Q",
+        "number": "two",
+        "result": "S",
+        "raw_output": " S",
+        "raw_input": "Consider letters in the alphabet. Starting at letter Q, we increment by two. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "R",
+      "number": "two",
+      "result": "T",
+      "raw_output": " T",
+      "raw_input": "Consider letters in the alphabet. Starting at letter R, we increment by two. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "Q",
+        "number": "one",
+        "result": "R",
+        "raw_output": " R",
+        "raw_input": "Consider letters in the alphabet. Starting at letter Q, we increment by one. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "R",
+      "number": "three",
+      "result": "U",
+      "raw_output": " U",
+      "raw_input": "Consider letters in the alphabet. Starting at letter R, we increment by three. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "U",
+        "number": "three",
+        "result": "X",
+        "raw_output": " X",
+        "raw_input": "Consider letters in the alphabet. Starting at letter U, we increment by three. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "R",
+      "number": "four",
+      "result": "V",
+      "raw_output": " V",
+      "raw_input": "Consider letters in the alphabet. Starting at letter R, we increment by four. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "U",
+        "number": "two",
+        "result": "W",
+        "raw_output": " W",
+        "raw_input": "Consider letters in the alphabet. Starting at letter U, we increment by two. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "S",
+      "number": "one",
+      "result": "T",
+      "raw_output": " T",
+      "raw_input": "Consider letters in the alphabet. Starting at letter S, we increment by one. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "E",
+        "number": "three",
+        "result": "H",
+        "raw_output": " H",
+        "raw_input": "Consider letters in the alphabet. Starting at letter E, we increment by three. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "S",
+      "number": "two",
+      "result": "U",
+      "raw_output": " U",
+      "raw_input": "Consider letters in the alphabet. Starting at letter S, we increment by two. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "R",
+        "number": "one",
+        "result": "S",
+        "raw_output": " S",
+        "raw_input": "Consider letters in the alphabet. Starting at letter R, we increment by one. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "S",
+      "number": "three",
+      "result": "V",
+      "raw_output": " V",
+      "raw_input": "Consider letters in the alphabet. Starting at letter S, we increment by three. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "T",
+        "number": "three",
+        "result": "W",
+        "raw_output": " W",
+        "raw_input": "Consider letters in the alphabet. Starting at letter T, we increment by three. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "S",
+      "number": "four",
+      "result": "W",
+      "raw_output": " W",
+      "raw_input": "Consider letters in the alphabet. Starting at letter S, we increment by four. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "P",
+        "number": "one",
+        "result": "Q",
+        "raw_output": " Q",
+        "raw_input": "Consider letters in the alphabet. Starting at letter P, we increment by one. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "T",
+      "number": "one",
+      "result": "U",
+      "raw_output": " U",
+      "raw_input": "Consider letters in the alphabet. Starting at letter T, we increment by one. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "D",
+        "number": "three",
+        "result": "G",
+        "raw_output": " G",
+        "raw_input": "Consider letters in the alphabet. Starting at letter D, we increment by three. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "T",
+      "number": "two",
+      "result": "V",
+      "raw_output": " V",
+      "raw_input": "Consider letters in the alphabet. Starting at letter T, we increment by two. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "J",
+        "number": "two",
+        "result": "L",
+        "raw_output": " L",
+        "raw_input": "Consider letters in the alphabet. Starting at letter J, we increment by two. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "T",
+      "number": "three",
+      "result": "W",
+      "raw_output": " W",
+      "raw_input": "Consider letters in the alphabet. Starting at letter T, we increment by three. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "S",
+        "number": "one",
+        "result": "T",
+        "raw_output": " T",
+        "raw_input": "Consider letters in the alphabet. Starting at letter S, we increment by one. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "T",
+      "number": "four",
+      "result": "X",
+      "raw_output": " X",
+      "raw_input": "Consider letters in the alphabet. Starting at letter T, we increment by four. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "C",
+        "number": "four",
+        "result": "G",
+        "raw_output": " G",
+        "raw_input": "Consider letters in the alphabet. Starting at letter C, we increment by four. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "U",
+      "number": "one",
+      "result": "V",
+      "raw_output": " V",
+      "raw_input": "Consider letters in the alphabet. Starting at letter U, we increment by one. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "C",
+        "number": "two",
+        "result": "E",
+        "raw_output": " E",
+        "raw_input": "Consider letters in the alphabet. Starting at letter C, we increment by two. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "U",
+      "number": "two",
+      "result": "W",
+      "raw_output": " W",
+      "raw_input": "Consider letters in the alphabet. Starting at letter U, we increment by two. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "E",
+        "number": "four",
+        "result": "I",
+        "raw_output": " I",
+        "raw_input": "Consider letters in the alphabet. Starting at letter E, we increment by four. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "U",
+      "number": "three",
+      "result": "X",
+      "raw_output": " X",
+      "raw_input": "Consider letters in the alphabet. Starting at letter U, we increment by three. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "R",
+        "number": "two",
+        "result": "T",
+        "raw_output": " T",
+        "raw_input": "Consider letters in the alphabet. Starting at letter R, we increment by two. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "U",
+      "number": "four",
+      "result": "Y",
+      "raw_output": " Y",
+      "raw_input": "Consider letters in the alphabet. Starting at letter U, we increment by four. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "I",
+        "number": "four",
+        "result": "M",
+        "raw_output": " M",
+        "raw_input": "Consider letters in the alphabet. Starting at letter I, we increment by four. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "V",
+      "number": "one",
+      "result": "W",
+      "raw_output": " W",
+      "raw_input": "Consider letters in the alphabet. Starting at letter V, we increment by one. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "G",
+        "number": "two",
+        "result": "I",
+        "raw_output": " I",
+        "raw_input": "Consider letters in the alphabet. Starting at letter G, we increment by two. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "V",
+      "number": "two",
+      "result": "X",
+      "raw_output": " X",
+      "raw_input": "Consider letters in the alphabet. Starting at letter V, we increment by two. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "W",
+        "number": "three",
+        "result": "Z",
+        "raw_output": " Z",
+        "raw_input": "Consider letters in the alphabet. Starting at letter W, we increment by three. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "V",
+      "number": "three",
+      "result": "Y",
+      "raw_output": " Y",
+      "raw_input": "Consider letters in the alphabet. Starting at letter V, we increment by three. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "M",
+        "number": "three",
+        "result": "P",
+        "raw_output": " P",
+        "raw_input": "Consider letters in the alphabet. Starting at letter M, we increment by three. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "V",
+      "number": "four",
+      "result": "Z",
+      "raw_output": " Z",
+      "raw_input": "Consider letters in the alphabet. Starting at letter V, we increment by four. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "O",
+        "number": "four",
+        "result": "S",
+        "raw_output": " S",
+        "raw_input": "Consider letters in the alphabet. Starting at letter O, we increment by four. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "W",
+      "number": "one",
+      "result": "X",
+      "raw_output": " X",
+      "raw_input": "Consider letters in the alphabet. Starting at letter W, we increment by one. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "D",
+        "number": "two",
+        "result": "F",
+        "raw_output": " F",
+        "raw_input": "Consider letters in the alphabet. Starting at letter D, we increment by two. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "W",
+      "number": "two",
+      "result": "Y",
+      "raw_output": " Y",
+      "raw_input": "Consider letters in the alphabet. Starting at letter W, we increment by two. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "H",
+        "number": "one",
+        "result": "I",
+        "raw_output": " I",
+        "raw_input": "Consider letters in the alphabet. Starting at letter H, we increment by one. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "W",
+      "number": "three",
+      "result": "Z",
+      "raw_output": " Z",
+      "raw_input": "Consider letters in the alphabet. Starting at letter W, we increment by three. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "K",
+        "number": "one",
+        "result": "L",
+        "raw_output": " L",
+        "raw_input": "Consider letters in the alphabet. Starting at letter K, we increment by one. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "X",
+      "number": "one",
+      "result": "Y",
+      "raw_output": " Y",
+      "raw_input": "Consider letters in the alphabet. Starting at letter X, we increment by one. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "S",
+        "number": "two",
+        "result": "U",
+        "raw_output": " U",
+        "raw_input": "Consider letters in the alphabet. Starting at letter S, we increment by two. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "X",
+      "number": "two",
+      "result": "Z",
+      "raw_output": " Z",
+      "raw_input": "Consider letters in the alphabet. Starting at letter X, we increment by two. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "S",
+        "number": "two",
+        "result": "U",
+        "raw_output": " U",
+        "raw_input": "Consider letters in the alphabet. Starting at letter S, we increment by two. The result is letter"
+      }
+    ]
+  },
+  {
+    "input": {
+      "entity": "Y",
+      "number": "one",
+      "result": "Z",
+      "raw_output": " Z",
+      "raw_input": "Consider letters in the alphabet. Starting at letter Y, we increment by one. The result is letter"
+    },
+    "counterfactual_inputs": [
+      {
+        "entity": "W",
+        "number": "one",
+        "result": "X",
+        "raw_output": " X",
+        "raw_input": "Consider letters in the alphabet. Starting at letter W, we increment by one. The result is letter"
+      }
+    ]
+  }
+]

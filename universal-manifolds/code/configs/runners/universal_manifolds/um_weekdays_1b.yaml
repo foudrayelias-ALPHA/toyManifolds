@@ -1,0 +1,28 @@
+# @package _global_
+# Producer (DEPTH SWEEP): weekdays concept manifold across layers in Llama-3.2-1B-Instruct.
+# subspace fits per-layer entity-token PCA clouds (the aligner reads these); activation_manifold
+# gives one representative mid-depth fitted-manifold visualization.
+# Layers chosen at matched relative depths {0, .25, .5, .75} of the 16-layer model.
+defaults:
+  - /base
+  - /task: natural_domains_arithmetic_weekdays
+  - /model: llama32_1b_instruct
+  - /analysis/baseline
+  - /analysis/subspace
+  - /analysis/activation_manifold
+  - _self_
+
+task:
+  target_variable: entity          # the day-of-week concept (input token)
+
+subspace:
+  method: pca                      # unsupervised, geometry-driven
+  k_features: 8
+  layers: [0, 4, 8, 12]            # depth sweep: rel 0, .25, .5, .75 of 16 layers
+  token_positions: [entity]        # concept token, not last_token
+
+activation_manifold:
+  method: spline
+  smoothness: 0.0
+  layers: [8]                      # representative mid-depth manifold for the 3D viz
+  token_positions: [entity]

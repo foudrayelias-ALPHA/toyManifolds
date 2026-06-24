@@ -1,0 +1,90 @@
+{
+  "provenance": {
+    "source": {
+      "experiment_root": "agent_logs/2026-06-21--universal-manifolds--lucid-glacier/artifacts/natural_domains_arithmetic/gpt2",
+      "variant": "alphabet",
+      "subspace": "pca_k8",
+      "layer": 6,
+      "pos": "entity"
+    },
+    "target": {
+      "experiment_root": "agent_logs/2026-06-21--universal-manifolds--lucid-glacier/artifacts/natural_domains_arithmetic/llama31_8b",
+      "variant": "alphabet",
+      "subspace": "pca_k8",
+      "layer": 16,
+      "pos": "entity"
+    },
+    "target_variable": "entity",
+    "n_classes": [
+      25,
+      25
+    ],
+    "cloud_sizes": [
+      88,
+      88
+    ],
+    "k_features": 8
+  },
+  "centroid": {
+    "gw_distance": 0.03465474130193015,
+    "distance_correlation": 0.747406800032238,
+    "distance_correlation_full": {
+      "pearson_r": 0.747406800032238,
+      "n_pairs": 300.0
+    },
+    "procrustes_residual": 9.138629981968927,
+    "label_recovery": {
+      "raw": 0.16,
+      "mod_symmetry": 0.16,
+      "best_group_element": "identity"
+    },
+    "nulls": {
+      "shuffle": {
+        "mean": 0.06892112987182167,
+        "p5": 0.06475438674109518,
+        "p95": 0.0719999511738408,
+        "pvalue": 0.0
+      },
+      "random": {
+        "mean": 0.08559040585279887,
+        "p5": 0.08065828395820869,
+        "p95": 0.09054887180426169,
+        "pvalue": 0.0
+      }
+    }
+  },
+  "cloud": {
+    "gw_distance": 0.03118916553273864,
+    "distance_correlation": 0.8490384811754239,
+    "centroid_vr_betti": {
+      "source": {
+        "0": 1,
+        "1": 0
+      },
+      "target": {
+        "0": 1,
+        "1": 0
+      },
+      "match": {
+        "match": true,
+        "per_dim": {
+          "0": true,
+          "1": true
+        }
+      }
+    },
+    "centroid_graph_betti": {
+      "source": {
+        "b0": 1,
+        "b1": 15,
+        "n_edges": 39
+      },
+      "target": {
+        "b0": 2,
+        "b1": 12,
+        "n_edges": 35
+      },
+      "match": false
+    }
+  }
+}

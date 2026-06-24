@@ -1,0 +1,30 @@
+# @package _global_
+# DISCRIMINANT aligner: weekdays-1B (source) vs alphabet-8B (target) — cross-concept.
+# Headline = GW distance: should be HIGHER than the same-concept weekdays_1b_8b pair (SC4/H4).
+# label_recovery is meaningless here (different concepts) and is expected ~0.
+defaults:
+  - /base
+  - /task: natural_domains_arithmetic_weekdays
+  - /model: llama31_8b
+  - /analysis/universal_manifold
+  - _self_
+
+task:
+  variant: null
+
+universal_manifold:
+  pair_label: wd1b_alpha8b_d0.5
+  target_variable: entity
+  symmetry_group: none
+  source:
+    experiment_root: agent_logs/2026-06-21--universal-manifolds--lucid-glacier/artifacts/natural_domains_arithmetic/llama32_1b_instruct
+    variant: weekdays
+    subspace: pca_k8
+    layer: 8
+    pos: entity
+  target:
+    experiment_root: agent_logs/2026-06-21--universal-manifolds--lucid-glacier/artifacts/natural_domains_arithmetic/llama31_8b
+    variant: alphabet
+    subspace: pca_k8
+    layer: 16
+    pos: entity

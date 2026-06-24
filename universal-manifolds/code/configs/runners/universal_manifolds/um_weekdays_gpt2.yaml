@@ -1,0 +1,26 @@
+# @package _global_
+# Cross-family producer (DEPTH SWEEP): weekdays concept manifold in GPT-2 (124M, 768-dim, 12 layers).
+# Sharper universality test than scale alone — different architecture/training. Ungated -> runs locally.
+defaults:
+  - /base
+  - /task: natural_domains_arithmetic_weekdays
+  - /model: gpt2
+  - /analysis/baseline
+  - /analysis/subspace
+  - /analysis/activation_manifold
+  - _self_
+
+task:
+  target_variable: entity
+
+subspace:
+  method: pca
+  k_features: 8
+  layers: [0, 3, 6, 9]            # matched relative depths {0,.25,.5,.75} of 12 layers
+  token_positions: [entity]
+
+activation_manifold:
+  method: spline
+  smoothness: 0.0
+  layers: [6]
+  token_positions: [entity]

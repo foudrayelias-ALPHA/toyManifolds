@@ -1,0 +1,18 @@
+# Approval log — 2026-06-21--universal-manifolds--lucid-glacier
+
+## Objective checkpoint (interactive)
+- 2026-06-21 — RESEARCH_OBJECTIVE.md presented (objective, SC1–SC4, H1–H4, scope, symmetry-group caveat).
+- User response: **Approved — proceed**.
+- Session migration: user chose **Migrate** from the onboarding-slugged session
+  `2026-06-21--repo-overview--curious-otter` to fresh `2026-06-21--universal-manifolds--lucid-glacier`.
+  Plan files moved; old empty session removed; `.current` updated.
+
+## Plan checkpoint (interactive)
+- 2026-06-21 — PLAN.md presented (DAG, custom method/analysis, sweep/cache, compute).
+- User response: **Approve — scaffold next**.
+- Locked decisions:
+  - Target variable: **entity** (result deferred to extension).
+  - k_features: **8** (both models → ℝ⁸).
+  - Scope: 4 producers ({weekdays, alphabet} × {1B, 8B}) + 3 aligners. gpt2/70B/months/result/joint-canonical = later.
+  - Compute: **Kaggle T4 headless** (producers as GPU kernels; aligner CPU). Follow global ~/.claude/CLAUDE.md Kaggle CLI workflow.
+- Next: /setup-methods (cross_model_alignment, manifold_topology + deps) → /setup-analyses (universal_manifold) → /run-experiment.

@@ -1,0 +1,93 @@
+{
+  "provenance": {
+    "source": {
+      "experiment_root": "agent_logs/2026-06-21--universal-manifolds--lucid-glacier/artifacts/natural_domains_arithmetic/gpt2",
+      "variant": "weekdays",
+      "subspace": "pca_k8",
+      "layer": 9,
+      "pos": "entity"
+    },
+    "target": {
+      "experiment_root": "agent_logs/2026-06-21--universal-manifolds--lucid-glacier/artifacts/natural_domains_arithmetic/llama31_8b",
+      "variant": "weekdays",
+      "subspace": "pca_k8",
+      "layer": 24,
+      "pos": "entity"
+    },
+    "target_variable": "entity",
+    "n_classes": [
+      7,
+      7
+    ],
+    "cloud_sizes": [
+      49,
+      49
+    ],
+    "k_features": 8
+  },
+  "centroid": {
+    "gw_distance": 0.015065334460523005,
+    "distance_correlation": 0.8858965907258997,
+    "distance_correlation_full": {
+      "pearson_r": 0.8858965907258997,
+      "n_pairs": 21.0
+    },
+    "procrustes_residual": 3.147913335939444,
+    "label_recovery": {
+      "raw": 0.7142857142857143,
+      "mod_symmetry": 0.7142857142857143,
+      "best_group_element": [
+        "rotate",
+        0
+      ]
+    },
+    "nulls": {
+      "shuffle": {
+        "mean": 0.020107465175323153,
+        "p5": 0.01496613955313604,
+        "p95": 0.024902655145866714,
+        "pvalue": 0.06
+      },
+      "random": {
+        "mean": 0.016764071526151426,
+        "p5": 0.012867224037529415,
+        "p95": 0.02147237340959261,
+        "pvalue": 0.34
+      }
+    }
+  },
+  "cloud": {
+    "gw_distance": 0.013890492930521293,
+    "distance_correlation": 0.9324209736529324,
+    "centroid_vr_betti": {
+      "source": {
+        "0": 1,
+        "1": 0
+      },
+      "target": {
+        "0": 1,
+        "1": 0
+      },
+      "match": {
+        "match": true,
+        "per_dim": {
+          "0": true,
+          "1": true
+        }
+      }
+    },
+    "centroid_graph_betti": {
+      "source": {
+        "b0": 1,
+        "b1": 2,
+        "n_edges": 8
+      },
+      "target": {
+        "b0": 1,
+        "b1": 1,
+        "n_edges": 7
+      },
+      "match": false
+    }
+  }
+}

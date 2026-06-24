@@ -1,0 +1,77 @@
+{
+  "provenance": {
+    "source": {
+      "experiment_root": "agent_logs/2026-06-21--universal-manifolds--lucid-glacier/artifacts/natural_domains_arithmetic/llama32_1b_instruct",
+      "variant": "weekdays",
+      "subspace": "pca_k8",
+      "layer": 12,
+      "pos": "entity"
+    },
+    "target": {
+      "experiment_root": "agent_logs/2026-06-21--universal-manifolds--lucid-glacier/artifacts/natural_domains_arithmetic/llama31_8b",
+      "variant": "alphabet",
+      "subspace": "pca_k8",
+      "layer": 24,
+      "pos": "entity"
+    },
+    "target_variable": "entity",
+    "n_classes": [
+      7,
+      25
+    ],
+    "cloud_sizes": [
+      49,
+      88
+    ],
+    "k_features": 8
+  },
+  "centroid": {
+    "gw_distance": 0.18143554917613414,
+    "distance_correlation": 0.38760455453427395,
+    "distance_correlation_full": {
+      "pearson_r": 0.38760455453427395,
+      "n_pairs": 21.0
+    },
+    "procrustes_residual": 0.5703769481729961,
+    "label_recovery": {
+      "raw": 0.0,
+      "mod_symmetry": 0.0,
+      "best_group_element": "identity"
+    },
+    "nulls": {
+      "shuffle": {
+        "mean": 0.16811560388662494,
+        "p5": 0.1656652183187714,
+        "p95": 0.1711466100350923,
+        "pvalue": 1.0
+      },
+      "random": {
+        "mean": 0.1538547754138333,
+        "p5": 0.13840942524410654,
+        "p95": 0.16820508084958768,
+        "pvalue": 1.0
+      }
+    }
+  },
+  "cloud": {
+    "gw_distance": 0.13422445743116995,
+    "distance_correlation": 0.35014773264655413,
+    "betti": {
+      "source": {
+        "0": 1,
+        "1": 0
+      },
+      "target": {
+        "0": 1,
+        "1": 0
+      },
+      "match": {
+        "match": true,
+        "per_dim": {
+          "0": true,
+          "1": true
+        }
+      }
+    }
+  }
+}

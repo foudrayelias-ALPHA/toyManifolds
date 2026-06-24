@@ -1,0 +1,25 @@
+# @package _global_
+# Cross-family discriminant-control producer (DEPTH SWEEP): alphabet manifold in GPT-2.
+defaults:
+  - /base
+  - /task: natural_domains_arithmetic_alphabet
+  - /model: gpt2
+  - /analysis/baseline
+  - /analysis/subspace
+  - /analysis/activation_manifold
+  - _self_
+
+task:
+  target_variable: entity
+
+subspace:
+  method: pca
+  k_features: 8
+  layers: [0, 3, 6, 9]
+  token_positions: [entity]
+
+activation_manifold:
+  method: spline
+  smoothness: 0.0
+  layers: [6]
+  token_positions: [entity]

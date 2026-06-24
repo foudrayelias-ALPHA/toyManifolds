@@ -1,0 +1,93 @@
+{
+  "provenance": {
+    "source": {
+      "experiment_root": "agent_logs/2026-06-21--universal-manifolds--lucid-glacier/artifacts/natural_domains_arithmetic/gpt2",
+      "variant": "weekdays",
+      "subspace": "pca_k8",
+      "layer": 6,
+      "pos": "entity"
+    },
+    "target": {
+      "experiment_root": "agent_logs/2026-06-21--universal-manifolds--lucid-glacier/artifacts/natural_domains_arithmetic/llama31_8b",
+      "variant": "weekdays",
+      "subspace": "pca_k8",
+      "layer": 16,
+      "pos": "entity"
+    },
+    "target_variable": "entity",
+    "n_classes": [
+      7,
+      7
+    ],
+    "cloud_sizes": [
+      49,
+      49
+    ],
+    "k_features": 8
+  },
+  "centroid": {
+    "gw_distance": 0.00997022323074383,
+    "distance_correlation": 0.7778482486669985,
+    "distance_correlation_full": {
+      "pearson_r": 0.7778482486669985,
+      "n_pairs": 21.0
+    },
+    "procrustes_residual": 6.0399668842584395,
+    "label_recovery": {
+      "raw": 0.0,
+      "mod_symmetry": 0.7142857142857143,
+      "best_group_element": [
+        "reflect",
+        4
+      ]
+    },
+    "nulls": {
+      "shuffle": {
+        "mean": 0.01564391519945297,
+        "p5": 0.009821615651687127,
+        "p95": 0.02133056626471983,
+        "pvalue": 0.06
+      },
+      "random": {
+        "mean": 0.014536317524766506,
+        "p5": 0.008637856715396101,
+        "p95": 0.021620242184521347,
+        "pvalue": 0.12
+      }
+    }
+  },
+  "cloud": {
+    "gw_distance": 0.016003305314845225,
+    "distance_correlation": 0.9115921160208103,
+    "centroid_vr_betti": {
+      "source": {
+        "0": 1,
+        "1": 0
+      },
+      "target": {
+        "0": 1,
+        "1": 0
+      },
+      "match": {
+        "match": true,
+        "per_dim": {
+          "0": true,
+          "1": true
+        }
+      }
+    },
+    "centroid_graph_betti": {
+      "source": {
+        "b0": 1,
+        "b1": 1,
+        "n_edges": 7
+      },
+      "target": {
+        "b0": 1,
+        "b1": 4,
+        "n_edges": 10
+      },
+      "match": false
+    }
+  }
+}

@@ -1,0 +1,28 @@
+# @package _global_
+# Aligner self-test: the 1B weekdays manifold aligned against ITSELF.
+# Pure plumbing validation of the universal_manifold analysis on real artifacts.
+# Expect: GW distance ~0, distance_correlation ~1, label_recovery.mod_symmetry = 1.0,
+# betti match = true. (A manifold is trivially universal with itself.)
+defaults:
+  - /base
+  - /task: natural_domains_arithmetic_weekdays
+  - /model: llama32_1b_instruct
+  - /analysis/universal_manifold
+  - _self_
+
+task:
+  target_variable: entity
+  variant: null               # suppress experiment_root variant-append for aligner output
+
+universal_manifold:
+  pair_label: selftest_1b_weekdays
+  target_variable: entity
+  symmetry_group: cyclic
+  source:
+    experiment_root: agent_logs/2026-06-21--universal-manifolds--lucid-glacier/artifacts/natural_domains_arithmetic/llama32_1b_instruct
+    variant: weekdays
+    subspace: pca_k8
+  target:
+    experiment_root: agent_logs/2026-06-21--universal-manifolds--lucid-glacier/artifacts/natural_domains_arithmetic/llama32_1b_instruct
+    variant: weekdays
+    subspace: pca_k8

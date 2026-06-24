@@ -1,0 +1,51 @@
+# @package universal_manifold
+# Hydra config for the session-local analysis `universal_manifold`.
+# Mounted at cfg.universal_manifold. Picked up via session-code search path when
+# CAUSALAB_SESSION_CODE is set (scripts/run_exp.sh, --experiment-root under agent_logs/).
+#
+# CROSS-ROOT analysis: reads TWO producer experiment_roots (source + target models),
+# not one. `source`/`target` are explicit — there is no single-root auto-discovery here.
+
+_name_: universal_manifold
+_subdir: ${.pair_label}                       # output lands at .../universal_manifold/<pair_label>
+_output_dir: ${experiment_root}/universal_manifold/${._subdir}
+
+pair_label: ???                               # e.g. weekdays_1b_8b — set by the runner config
+
+# Which producer manifolds to align. experiment_root points at the producer's
+# .../artifacts/natural_domains_arithmetic/<model> dir; variant appends /<variant>.
+source:
+  experiment_root: ???
+  variant: weekdays
+  subspace: pca_k8                            # subspace _subdir to read features from
+  layer: null                                 # null = single cell auto-discovered under layer_x_pos/
+  pos: null
+target:
+  experiment_root: ???
+  variant: weekdays
+  subspace: pca_k8
+  layer: null
+  pos: null
+
+target_variable: entity                       # class identity for centroids + label-recovery
+granularity: [centroid, cloud]                # GW + distance-correlation at both levels
+distance_metric: euclidean
+
+gw:
+  epsilon: 0.02                               # entropic GW reg (stable; lower = sharper, stiffer)
+  n_init: 10                                  # GW restarts (escape local minima)
+  seed: ${seed}
+procrustes:
+  correspondence: gw                          # "gw" (use GW matching) or "labels" (supervised upper bound)
+symmetry_group: cyclic                        # label-recovery mod-symmetry; "none" for alphabet (linear)
+topology:
+  maxdim: 1
+  rel_threshold: 0.25                         # VR significance cut (informative; unreliable for few-point high-D)
+  knn_k: 2                                    # k for the k-NN-graph Betti (the reliable loop detector); 2 = ring
+nulls:
+  kinds: [shuffle, random]                    # GW nulls: destroy geometry (GW is relabel-invariant)
+  n_samples: 200
+  seed: ${seed}
+
+visualization:
+  figure_format: png                          # coupling heatmap, persistence diagrams, isometry scatter

@@ -1,0 +1,26 @@
+# @package _global_
+# Producer (DEPTH SWEEP): weekdays concept manifold across layers in Llama-3.1-8B.
+# Layers at matched relative depths {0, .25, .5, .75} of the 32-layer model.
+defaults:
+  - /base
+  - /task: natural_domains_arithmetic_weekdays
+  - /model: llama31_8b
+  - /analysis/baseline
+  - /analysis/subspace
+  - /analysis/activation_manifold
+  - _self_
+
+task:
+  target_variable: entity
+
+subspace:
+  method: pca
+  k_features: 8
+  layers: [0, 8, 16, 24]           # matched to 1B's [0,4,8,12] by relative depth
+  token_positions: [entity]
+
+activation_manifold:
+  method: spline
+  smoothness: 0.0
+  layers: [16]                     # representative mid-depth manifold viz
+  token_positions: [entity]
